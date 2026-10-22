@@ -1,0 +1,44 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+build/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment files: never commit real values. Only the placeholder template is tracked.
+.env
+.env.*
+!.env.example
+
+# Deployment / platform state
+.vercel/
+
+# Keys, certificates and credentials
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials*.json
+service-account*.json
+
+# Customer data: only the synthetic demo samples are tracked
+*.csv
+!public/samples/*.csv
+*.sqlite
+*.db
+*.dump
+
+# Logs, OS and editor clutter
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local scratch scripts (e.g. one-off screenshot helpers)
+scripts/_*

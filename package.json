@@ -1,0 +1,36 @@
+{
+  "name": "regain",
+  "version": "1.0.0",
+  "private": true,
+  "description": "REGAIN — The Retention Decision Engine (AI-GNITION 2026 prototype)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "sample": "tsx scripts/generate-sample.ts",
+    "e2e": "node scripts/e2e.mjs"
+  },
+  "dependencies": {
+    "next": "15.5.28",
+    "papaparse": "5.5.3",
+    "react": "19.1.10",
+    "react-dom": "19.1.10",
+    "recharts": "2.15.4"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.30",
+    "@types/papaparse": "5.3.16",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "autoprefixer": "10.4.21",
+    "postcss": "8.5.6",
+    "puppeteer-core": "^23.11.1",
+    "tailwindcss": "3.4.17",
+    "tsx": "4.20.3",
+    "typescript": "5.8.3",
+    "vitest": "3.2.4"
+  }
+}
